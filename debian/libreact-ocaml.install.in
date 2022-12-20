@@ -1,0 +1,3 @@
+     @OCamlStdlibDir@/react/META
+     @OCamlStdlibDir@/react/react.cma
+DYN: @OCamlStdlibDir@/react/react.cmxs

@@ -1,0 +1,50 @@
+Source: react
+Priority: optional
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Stéphane Glondu <glondu@debian.org>
+Build-Depends:
+ debhelper-compat (= 12),
+ dh-ocaml (>= 0.9),
+ ocaml-findlib (>= 1.4),
+ ocamlbuild,
+ libtopkg-ocaml-dev,
+ opam-installer,
+ ocaml-nox (>= 4)
+Standards-Version: 4.4.1
+Rules-Requires-Root: no
+Section: ocaml
+Homepage: http://erratique.ch/software/react
+Vcs-Browser: https://salsa.debian.org/ocaml-team/react
+Vcs-Git: https://salsa.debian.org/ocaml-team/react.git
+
+Package: libreact-ocaml-dev
+Architecture: any
+Depends:
+ ${ocaml:Depends},
+ ${shlibs:Depends},
+ ${misc:Depends}
+Provides: ${ocaml:Provides}
+Recommends: ocaml-findlib
+Description: functional reactive programming in OCaml
+ React is an OCaml module for functional reactive programming.
+ It provides support to program with time varying values:
+ applicative events and signals. React doesn't define any primitive
+ event or signal, this lets the client chooses the concrete timeline.
+ .
+ This package contains development files of React.
+
+Package: libreact-ocaml
+Architecture: any
+Depends:
+ ${ocaml:Depends},
+ ${shlibs:Depends},
+ ${misc:Depends}
+Provides: ${ocaml:Provides}
+Recommends: ocaml-findlib
+Description: functional reactive programming in OCaml (plugins)
+ React is an OCaml module for functional reactive programming.
+ It provides support to program with time varying values:
+ applicative events and signals. React doesn't define any primitive
+ event or signal, this lets the client chooses the concrete timeline.
+ .
+ This package contains dynamically loadable plugins of React.

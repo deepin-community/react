@@ -1,0 +1,93 @@
+react (1.2.1-1-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Thu, 24 Nov 2022 07:20:35 +0800
+
+react (1.2.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bump debhelper compat level to 12
+  * Bump Standards-Version to 4.4.1
+  * Add Rules-Requires-Root: no
+  * Update Vcs-*
+
+ -- Stéphane Glondu <glondu@debian.org>  Wed, 15 Jan 2020 10:36:13 +0100
+
+react (1.2.0-3) unstable; urgency=medium
+
+  * Add ocamlbuild to Build-Depends
+  * Update Vcs-*
+
+ -- Stéphane Glondu <glondu@debian.org>  Sat, 22 Jul 2017 08:51:44 +0200
+
+react (1.2.0-2) unstable; urgency=medium
+
+  * Bump debhelper compat level to 9
+  * Bump Standards-Version to 3.9.6
+  * Upload to unstable
+
+ -- Stéphane Glondu <glondu@debian.org>  Tue, 03 Nov 2015 16:21:30 +0100
+
+react (1.2.0-1) experimental; urgency=medium
+
+  * New upstream release
+
+ -- Stéphane Glondu <glondu@debian.org>  Thu, 29 Oct 2015 10:08:38 +0100
+
+react (0.9.4-3) unstable; urgency=low
+
+  * Upload to unstable
+
+ -- Stéphane Glondu <glondu@debian.org>  Tue, 03 Dec 2013 08:42:17 +0100
+
+react (0.9.4-2) experimental; urgency=low
+
+  * Compile with OCaml >= 4
+  * Update Vcs-*
+
+ -- Stéphane Glondu <glondu@debian.org>  Fri, 26 Jul 2013 21:51:47 +0200
+
+react (0.9.4-1) unstable; urgency=low
+
+  * New upstream release
+  * Bump Standards-Version to 3.9.4
+
+ -- Stéphane Glondu <glondu@debian.org>  Wed, 08 May 2013 17:26:50 +0200
+
+react (0.9.3-1) unstable; urgency=low
+
+  * New upstream release
+  * Switch debian/copyright to format 1.0
+  * Bump Standards-Version to 3.9.3
+
+ -- Stéphane Glondu <glondu@debian.org>  Fri, 06 Apr 2012 10:02:02 +0200
+
+react (0.9.2-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Stéphane Glondu <glondu@debian.org>  Tue, 27 Apr 2010 10:51:42 +0200
+
+react (0.9.1-1) unstable; urgency=low
+
+  * New upstream release
+  * Switch source package format to 3.0 (quilt)
+  * Ship css of HTML documentation
+  * Bump Standards-Version to 3.8.4 (no changes)
+
+ -- Stéphane Glondu <glondu@debian.org>  Wed, 21 Apr 2010 21:41:39 +0200
+
+react (0.9.0-2) unstable; urgency=low
+
+  * Switch packaging to dh-ocaml 0.9
+  * Update my e-mail address and remove DMUA
+  * Update Standards-Version to 3.8.3 (no changes)
+
+ -- Stéphane Glondu <glondu@debian.org>  Mon, 05 Oct 2009 10:19:01 +0200
+
+react (0.9.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #532639)
+
+ -- Stephane Glondu <steph@glondu.net>  Wed, 10 Jun 2009 22:16:51 +0200

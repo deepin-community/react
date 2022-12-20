@@ -1,0 +1,8 @@
+     @OCamlStdlibDir@/react/opam
+     @OCamlStdlibDir@/react/react.mli
+     @OCamlStdlibDir@/react/react.cmi
+     @OCamlStdlibDir@/react/react.cmti
+OPT: @OCamlStdlibDir@/react/react.cmx
+OPT: @OCamlStdlibDir@/react/react.cmxa
+OPT: @OCamlStdlibDir@/react/react.a
+     @OCamlStdlibDir@/react/react_top*
